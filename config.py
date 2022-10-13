@@ -25,7 +25,7 @@ def load_config(path: str = _config_path) -> Dict:
         with open(path, 'r') as f:
             config = load(f, Loader=Loader)
     except FileNotFoundError:
-        config = default_config
+        config = default_config.copy()
         save_config(config)
     return config
 
