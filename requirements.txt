@@ -1,0 +1,4 @@
+ddddocr==1.4.7
+pytz==2021.1
+PyYAML==6.0
+Requests==2.28.1
